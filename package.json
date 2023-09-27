@@ -33,7 +33,9 @@
   "exports": {
     ".": {
       "browser": "./index.browser.js",
-      "default": "./index.js"
+      "default": "./index.js",
+      "require": "./index.cjs",
+      "import": "./index.js"
     },
     "./non-secure": "./non-secure/index.js",
     "./package.json": "./package.json"
